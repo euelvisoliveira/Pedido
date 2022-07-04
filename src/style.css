@@ -1,0 +1,19 @@
+* {
+  background: #000;
+}
+button {
+  border: none;
+  border-radius: 16rem;
+  padding: 1rem 1rem;
+  color: #483d8b;
+  background: #add8e6;
+}
+
+.info {
+  display: none;
+  border: 1px solid #fff;
+}
+
+ul {
+  color: #fff;
+}
