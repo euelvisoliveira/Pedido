@@ -44,14 +44,30 @@ const infoButtonInit = () => {
   const elIntiallText = el.html()
   el.on('click', () => {
     if (el.html() == elIntiallText) {
-      el.html('OCULTAR INFORMAÇÕES')
+      el.html('Ocultar')
     } else {
       el.html(elIntiallText)
     }
 
+    $('#btn-start').slideToggle()
     $('.info').slideToggle()
+    $('#btn-info').slideToggle()
+    $('h1').slideToggle()
+    $('.coracao').slideToggle()
   })
 }
+
+const slickOptions = {
+  autoplay: true,
+  autoplaySpeed: 2000,
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 2000,
+  fade: true,
+  cssEase: 'linear'
+}
+$('.carrosel_img').slick(slickOptions)
 
 $(document).ready(() => {
   startButtonInit()
