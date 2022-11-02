@@ -46,6 +46,7 @@ button {
   color: #f00;
   background: #fff;
   margin: 10px;
+  cursor: pointer;
 }
 
 .info {
