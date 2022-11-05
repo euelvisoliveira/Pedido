@@ -23,7 +23,7 @@
 
 const handleClick = () => {
   const body = $('body')
-  body.html(`<h1>Hello World</h1>`)
+  body.html(`<h1></h1>`)
 
   body.css('backgroundColor', '#000')
   body.css('color', '#FFF')
